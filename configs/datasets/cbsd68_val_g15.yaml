@@ -1,0 +1,21 @@
+dataset:
+  target: idf.datasets.gaussian.GaussianDataset
+  params:
+    dataroot: data/CBSD68
+    noise_level: [15, 15]
+    channel_wise_noise: false
+    patch_size: 128
+    augmentation: false
+    test: true
+    preload: false
+    parallel_preload: false
+
+data_loader:
+  batch_size: 1
+  shuffle: false
+  num_workers: 0
+  drop_last: false
+
+batch_transform:
+  target: idf.datasets.batch_transform.IdentityBatchTransform
+

@@ -1,0 +1,11 @@
+step,avg_psnr,avg_ssim,is_best,best_step,best_psnr,checkpoint
+2000,28.7567741789146,0.818962814839721,1,2000,28.7567741789146,E:\lowlevel\IDF\runs\idf_grad8_rgb3d_scf_k10_oodbest\ood_checkpoints\step_002000.ckpt
+4000,28.75736988728296,0.818495140552559,1,4000,28.75736988728296,E:\lowlevel\IDF\runs\idf_grad8_rgb3d_scf_k10_oodbest\ood_checkpoints\step_004000.ckpt
+6000,28.762427135446227,0.8186607187886962,1,6000,28.762427135446227,E:\lowlevel\IDF\runs\idf_grad8_rgb3d_scf_k10_oodbest\ood_checkpoints\step_006000.ckpt
+8000,28.764544963134824,0.8190885305948338,1,8000,28.764544963134824,E:\lowlevel\IDF\runs\idf_grad8_rgb3d_scf_k10_oodbest\ood_checkpoints\step_008000.ckpt
+10000,28.768029848311556,0.8190479125073739,1,10000,28.768029848311556,E:\lowlevel\IDF\runs\idf_grad8_rgb3d_scf_k10_oodbest\ood_checkpoints\step_010000.ckpt
+12000,28.768905837219837,0.8195250081910476,1,12000,28.768905837219837,E:\lowlevel\IDF\runs\idf_grad8_rgb3d_scf_k10_oodbest\ood_checkpoints\step_012000.ckpt
+14000,28.76029244991121,0.8187581934900389,0,12000,28.768905837219837,E:\lowlevel\IDF\runs\idf_grad8_rgb3d_scf_k10_oodbest\ood_checkpoints\step_014000.ckpt
+16000,28.762481450945113,0.8191097332427145,0,12000,28.768905837219837,E:\lowlevel\IDF\runs\idf_grad8_rgb3d_scf_k10_oodbest\ood_checkpoints\step_016000.ckpt
+18000,28.761585776456286,0.8191716143007653,0,12000,28.768905837219837,E:\lowlevel\IDF\runs\idf_grad8_rgb3d_scf_k10_oodbest\ood_checkpoints\step_018000.ckpt
+20000,28.769488539077894,0.8192858477432791,1,20000,28.769488539077894,E:\lowlevel\IDF\runs\idf_grad8_rgb3d_scf_k10_oodbest\ood_checkpoints\step_020000.ckpt

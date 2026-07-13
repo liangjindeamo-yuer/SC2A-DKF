@@ -1,0 +1,49 @@
+target: idf.models.lit_a_denoising.LitADenoising
+params:
+  misc_config:
+    compile: false
+    warmup: 5000
+    adaptive_iteration: False
+    max_iteration: ~
+
+  data_config:
+    train:
+      input_key: LQ
+      target_key: GT
+    validate:
+      CBSD432_G15:
+        input_key: LQ
+        target_key: GT
+
+    norm:
+      mu_data: 0.0
+      sigma_data: 0.5
+      raw_mean: [0.36187348, 0.4361255, 0.4335091]
+      raw_std: [0.19088039, 0.19967876, 0.21309015]
+
+  optimizer_config:
+    target: torch.optim.AdamW
+    params:
+      lr: !!float 1e-4
+      weight_decay: !!float 1e-4
+      betas: [0.9, 0.999]
+
+  loss_config:
+    target: idf.losses.basic_loss.L1Loss
+    params:
+      loss_weight: !!float 1.0
+      reduction: mean
+
+  denoiser_config:
+    target: idf.archs.idf_structured_arch.IDFStructuredNet
+    params:
+      num_iter: 10
+      kernel_size: 3
+      num_channels: 3
+      hidden_channels: 64
+      power_alpha: 3.0
+      halt_threshold: 0.015
+      lcm_type: grad8
+      kernel_mode: rgb3d
+      offdiag_gate_max: 0.1
+      offdiag_gate_init: -6.0

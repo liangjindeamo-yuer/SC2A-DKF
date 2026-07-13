@@ -1,0 +1,24 @@
+# PyTorch with CUDA 11.8 wheels
+torch==2.3.1+cu118
+torchvision==0.18.1+cu118
+torchaudio==2.3.1+cu118
+--extra-index-url https://download.pytorch.org/whl/cu118
+
+# Other dependencies
+lightning
+pytorch-lightning
+scikit-image
+scipy
+einops
+Pillow
+pandas
+opencv-python
+timm
+matplotlib
+wandb
+natsort
+tensorboard
+omegaconf
+rich
+lpips
+tqdm

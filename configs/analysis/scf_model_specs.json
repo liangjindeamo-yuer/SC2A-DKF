@@ -1,0 +1,18 @@
+﻿{
+  "sc2a_dkf_grad4": {
+    "config": "configs/models/sc2a_dkf.yaml",
+    "checkpoint": "checkpoints/sc2a_dkf_grad4_last.ckpt"
+  },
+  "sc2a_dkf_grad8_ood": {
+    "config": "configs/models/sc2a_dkf_best_ood.yaml",
+    "checkpoint": "checkpoints/sc2a_dkf_best_ood.ckpt"
+  },
+  "idf_base": {
+    "config": "configs/models/idf_base.yaml",
+    "checkpoint": "runs/idf_base/CSVLogger/idf_base/checkpoints/last.ckpt"
+  },
+  "idf_grad8_rgb3d": {
+    "config": "configs/models/idf_grad8_rgb3d.yaml",
+    "checkpoint": "runs/idf_grad8_rgb3d/CSVLogger/idf_grad8_rgb3d/checkpoints/last.ckpt"
+  }
+}
