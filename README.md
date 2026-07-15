@@ -1,9 +1,7 @@
 ﻿# SC2A-DKF
 
 SC2A-DKF is a compact research code release for image-domain iterative dynamic
-filtering with structure/color-aware kernels. It is distilled from the working
-IDF experimental tree and keeps only the code that is useful for the final
-SC2A-DKF model, its ablations, and evaluation.
+filtering with structure/color-aware kernels. 
 
 
 
