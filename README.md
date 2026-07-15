@@ -95,3 +95,17 @@ python scripts/export_scf_iter_visuals.py \
 
 
 
+
+## Citation
+
+If you use this code, please cite:
+
+```bibtex
+@inproceedings{wang2026sc2adkf,
+  title     = {SC2A-DKF: Structure-Constrained Color-Aware Dynamic Kernel Filtering for Out-of-Distribution Image Denoising},
+  author    = {Wang, Ran and Lu, Yu and Ding, Dian and Ma, Yue and Xue, Guangtao},
+  booktitle = {WAIC Academic 2026},
+  year      = {2026},
+  note      = {Submitted}
+}
+```
