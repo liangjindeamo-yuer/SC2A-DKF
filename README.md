@@ -106,6 +106,5 @@ If you use this code, please cite:
   author    = {Wang, Ran and Lu, Yu and Ding, Dian and Ma, Yue and Xue, Guangtao},
   booktitle = {WAIC Academic 2026},
   year      = {2026},
-  note      = {Submitted}
 }
 ```
